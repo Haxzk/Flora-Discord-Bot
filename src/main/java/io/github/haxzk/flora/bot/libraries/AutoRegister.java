@@ -5,6 +5,10 @@ import org.reflections.Reflections;
 
 import java.util.Set;
 
+/*
+Library feita por: Fabrício | Haxzk#2388
+*/
+
 public class AutoRegister {
 
     private Reflections reflections;
