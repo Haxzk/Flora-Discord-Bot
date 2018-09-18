@@ -8,6 +8,10 @@ import net.dv8tion.jda.core.hooks.ListenerAdapter;
 
 import java.util.List;
 
+
+/*
+Library feita por: Fabrício | Haxzk#2388
+*/
 public abstract class Command extends ListenerAdapter {
 
     public abstract char getPrefix();
