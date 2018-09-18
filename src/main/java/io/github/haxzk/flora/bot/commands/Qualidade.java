@@ -29,7 +29,7 @@ public class Qualidade extends Command {
     }
 
     public String withoutPermissionMessage(Member member) {
-        return "";
+        return "Hey! " + member.getAsMention() + " sem permissão!";
     }
 
     public void execute(User user, Member member, MessageChannel channel, Guild guild, Message message) {
