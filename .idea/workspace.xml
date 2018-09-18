@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e35923bb-fbbf-451f-a2b5-61b1cf4122d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/commands/Qualidade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/commands/ShipCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/FloraIA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/FloraIA.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,13 +26,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2783" />
+          <entry key="java" value="2826" />
           <entry key="xml" value="161" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2783" />
+          <entry key="JAVA" value="2826" />
           <entry key="XML" value="161" />
         </counts>
       </usages-collector>
@@ -59,11 +57,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/FloraIA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="208">
+              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#FloraIA#0;class#FloraIA#0" />
+                <element signature="e#1567#1568#0" expanded="true" />
+                <element signature="e#1596#1597#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,11 +88,11 @@
         <option value="$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/libraries/AutoRegister.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/commands/StatusCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/listeners/StatusFunction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/FloraIA.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/libraries/Command.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/commands/ShipCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/commands/Qualidade.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/commands/Inverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/FloraIA.java" />
       </list>
     </option>
   </component>
@@ -179,7 +178,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537237584349" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537237833821" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/PROJETOS" />
     <property name="settings.editor.selected.configurable" value="com.chrisrm.idea.config.mtCustomThemeConfig" />
     <property name="two.files.diff.last.used.folder" value="$USER_HOME$/Documents/PROJETOS" />
@@ -233,7 +232,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18740849" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18740849" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -242,7 +241,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.327787" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.327787" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -364,11 +363,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/FloraIA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="208">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#FloraIA#0;class#FloraIA#0" />
+            <element signature="e#1567#1568#0" expanded="true" />
+            <element signature="e#1596#1597#0" expanded="true" />
           </folding>
         </state>
       </provider>

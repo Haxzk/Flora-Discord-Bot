@@ -22,10 +22,6 @@ public class FloraIA {
                 jdaBuilderObject.addEventListener(c.newInstance());
                 System.out.println("Comando: " + c.getName() + " registrado! ");
             }
-            for (Class<? extends ListenerAdapter> c : new AutoRegister("io.github.haxzk.flora.bot").getListenerClass()) {
-                jdaBuilderObject.addEventListener(c.newInstance());
-                System.out.println("Evento: " + c.getName() + " registrado! ");
-            }
             jdaObject = jdaBuilderObject.build();
         } catch (LoginException e) {
             e.printStackTrace();
