@@ -21,7 +21,7 @@ public class Inverter extends Command {
     }
 
     public Permission getPermission() {
-        return Permission.UNKNOWN;
+        return Permission.MESSAGE_WRITE;
     }
 
     public boolean canBotExecute() {
@@ -29,15 +29,15 @@ public class Inverter extends Command {
     }
 
     public String withoutPermissionMessage(Member member) {
-        return "";
+        return "Hey! Sem permissão, " + member.getAsMention() + ".";
     }
 
     public void execute(User user, Member member, MessageChannel channel, Guild guild, Message message) {
-        String m = message.getContentRaw();
-        String mN = "";
-        for (int i = m.length() -1 ; i > 0; i--) {
-            mN += m.charAt(i);
+        String m = message.getContentRaw().replace(getPrefix() + getCommandName(), "");
+        StringBuilder mN = new StringBuilder();
+        for (int i = m.length() - 1 ; i > 0; i--) {
+            mN.append(m.charAt(i));
         }
-        channel.sendMessage(mN).queue();
+        channel.sendMessage(member.getAsMention() + ": " + mN.toString()).queue();
     }
 }

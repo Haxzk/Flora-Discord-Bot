@@ -21,9 +21,8 @@ public abstract class Command extends ListenerAdapter {
     @Override
     public void onMessageReceived(MessageReceivedEvent event) {
         if (event.getAuthor().isBot()) if (!canBotExecute()) return;
-        if (event.getMessage().getContentRaw().split("")[0].equalsIgnoreCase(getPrefix() + getCommandName()) ||
-                getAliases().contains(event.getMessage().getContentRaw().split("")[0].toLowerCase())) {
-            if (event.getMember().getPermissions().contains(getPermission())) {
+        if (!event.getMessage().getContentRaw().split("")[0].equalsIgnoreCase(getPrefix() + getCommandName())) {
+            if (event.getMember().hasPermission(getPermission())) {
                 execute(event.getAuthor(), event.getMember(), event.getChannel(), event.getGuild(), event.getMessage());
                 return;
             } else {
