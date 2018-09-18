@@ -33,11 +33,11 @@ public class Qualidade extends Command {
     }
 
     public void execute(User user, Member member, MessageChannel channel, Guild guild, Message message) {
-        String m = message.getContentRaw();
+        String m = message.getContentRaw().replace(getPrefix() + getCommandName(), "");
         String mN = "";
         for (int i = 0; i < m.length(); i++) {
-            mN += !(m.charAt(i) == ' ') ? m.charAt(i) : m.charAt(i) + " ";
+            mN += m.charAt(i) == ' ' ? m.charAt(i) : m.charAt(i) + " ";
         }
-        channel.sendMessage(member.getAsMention() + ": " + mN).queue();
+        channel.sendMessage(member.getAsMention() + ": " + mN.toUpperCase()).queue();
     }
 }
