@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e35923bb-fbbf-451f-a2b5-61b1cf4122d5" name="Default Changelist" comment="" />
+    <list default="true" id="e35923bb-fbbf-451f-a2b5-61b1cf4122d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/commands/Inverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/commands/Qualidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/commands/ShipCommand.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,61 +20,86 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="3" />
+          <entry key="project.open.time.116" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.84" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2350" />
+          <entry key="java" value="2730" />
           <entry key="xml" value="161" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2350" />
+          <entry key="JAVA" value="2730" />
           <entry key="XML" value="161" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="4" />
-          <entry key="java" value="17" />
-          <entry key="xml" value="6" />
+          <entry key="java" value="19" />
+          <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="17" />
-          <entry key="XML" value="6" />
+          <entry key="JAVA" value="19" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/commands/ShipCommand.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/commands/Qualidade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+            <state relative-caret-position="480">
+              <caret line="40" column="71" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-                <element signature="e#535#536#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#561#562#0" expanded="true" />
+                <element signature="e#622#623#0" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/commands/Inverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,6 +114,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -95,6 +128,8 @@
         <option value="$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/FloraIA.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/libraries/Command.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/commands/ShipCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/commands/Qualidade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/commands/Inverter.java" />
       </list>
     </option>
   </component>
@@ -111,13 +146,14 @@
     <option name="width" value="1346" />
     <option name="height" value="698" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,6 +194,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bot" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Flora Bot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Flora Bot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bot" type="462c0819:PsiDirectoryNode" />
               <item name="libraries" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -165,10 +210,12 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537226678983" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537237391621" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/PROJETOS" />
     <property name="settings.editor.selected.configurable" value="com.chrisrm.idea.config.mtCustomThemeConfig" />
     <property name="two.files.diff.last.used.folder" value="$USER_HOME$/Documents/PROJETOS" />
@@ -238,7 +285,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.327787" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -255,11 +302,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/commands/TestCommand.java" />
-    <entry file="file://$PROJECT_DIR$/target/classes/io/github/haxzk/flora/bot/commands/TestCommand.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/io/github/haxzk/flora/bot/commands/TestCommand.class" />
     <entry file="file://$PROJECT_DIR$/target/classes/io/github/haxzk/flora/bot/libraries/AutoRegister.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-116" />
@@ -275,45 +318,12 @@
         <state relative-caret-position="-216" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-          <folding>
-            <element signature="n#repositories#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/listeners/StatusFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/commands/StatusCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/listeners/StatusFunction.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/commands/StatusCommand.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/FloraIA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -331,24 +341,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+          <folding>
+            <element signature="n#repositories#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/commands/ShipCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+        <state relative-caret-position="319">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/commands/Qualidade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="40" column="71" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/haxzk/flora/bot/commands/Inverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
           </folding>
         </state>
       </provider>

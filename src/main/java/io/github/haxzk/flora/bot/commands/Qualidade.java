@@ -7,18 +7,17 @@ import net.dv8tion.jda.core.entities.*;
 import java.util.Arrays;
 import java.util.List;
 
-public class ShipCommand extends Command {
-
+public class Qualidade extends Command {
     public char getPrefix() {
-        return '$';
+        return '+';
     }
 
     public String getCommandName() {
-        return "ship";
+        return "qualidade";
     }
 
     public List<String> getAliases() {
-        return Arrays.asList("shippar");
+        return Arrays.asList("");
     }
 
     public Permission getPermission() {
@@ -30,10 +29,15 @@ public class ShipCommand extends Command {
     }
 
     public String withoutPermissionMessage(Member member) {
-        return "Hey! " + member.getAsMention() + "";
+        return "";
     }
 
     public void execute(User user, Member member, MessageChannel channel, Guild guild, Message message) {
-
+        String m = message.getContentRaw();
+        String mN = "";
+        for (int i = 0; i < m.length(); i++) {
+            mN += !(m.charAt(i) == ' ') ? m.charAt(i) : m.charAt(i) + " ";
+        }
+        channel.sendMessage(member.getAsMention() + ": " + mN).queue();
     }
 }
