@@ -18,9 +18,9 @@ public class FloraIA {
     private FloraIA() {
         try {
             jdaBuilderObject = new JDABuilder(AccountType.BOT).setToken("NDkxMjUzMzAxMDc4MzkyODMz.DoG8aA.lIXdcKhicHXjX5v85HiQsX6ufPY");
-            for (Class<? extends Command> c : new AutoRegister("io.github.haxzk.flora.bot").getCommandClass()) {
+            for (Class<?> c : new AutoRegister("io.github.haxzk.flora.bot").getAllClass()) {
                 jdaBuilderObject.addEventListener(c.newInstance());
-                System.out.println("Comando: " + c.getName() + " registrado! ");
+                System.out.println("Comando | Evento: " + c.getName() + " registrado! ");
             }
             jdaObject = jdaBuilderObject.build();
         } catch (LoginException e) {
