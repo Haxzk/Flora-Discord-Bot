@@ -6,6 +6,10 @@ import org.reflections.Reflections;
 import java.util.HashSet;
 import java.util.Set;
 
+/*
+Library feita por: Fabrício | Haxzk#2388
+*/
+
 public class AutoRegister {
 
     private Reflections reflections;
@@ -23,13 +27,13 @@ public class AutoRegister {
     }
 
     public Set<Class<? extends Command>> getCommandClass() {
-        return commandClassSet;
+        return this.commandClassSet;
     }
 
     public Set<Class<? extends ListenerAdapter>> getListenerClass() {
-        return listenerClassSet;
+        return this.listenerClassSet;
     }
-
+    
     public Set<Class<?>> getAllClass() {
         return classSet;
     }
